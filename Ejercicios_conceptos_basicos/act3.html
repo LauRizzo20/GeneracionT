@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <div>
+        <button type="button"><a href="act1.html">Ejercicio 1</a></button>
+        <button type="button"><a href="act2.html">Ejercicio 2</a></button>
+        <button type="button"><a href="act3.html">Ejercicio 3</a></button>
+        <button type="button"><a href="act4.html">Ejercicio 4</a></button>
+    </div>
+<br>
+<h1>Formulario de registro</h1>
+    <form method="get" action="">
+        <div>
+            <label for="nombre">Nombre: </label>
+            <input name="nombre" maxlength="50" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="apellido">Apellido: </label>
+            <input name="apellido" maxlength="50" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Sexo: </label>
+            <input type="radio" name="gender" id="hombre">Hombre
+            <input type="radio" name="gender" id="mujer">Mujer
+        </div>
+        <br>
+        <div>
+            <label for="correo">Correo: </label>
+            <input name="correo" type="text">
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" checked>Deseo recibir información sobre novedades y ofertas
+        </div>
+        <br>
+        <div>
+            <input type="checkbox">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos
+        </div>
+        <br>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>

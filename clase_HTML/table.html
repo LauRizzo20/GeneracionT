@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de memes</title>
+</head>
+<body>
+    <div class="navbar">
+        <button type="button"><a href="index.html">Inicio</a></button>
+        <button type="button"><a href="memes.html">¿meme?</a></button>
+        <button type="button"><a href="table.html">tabla de memes</a></button>
+    </div>
+<br>
+<h2>- Estos son algunos memes famosos:</h2>
+    <table>
+        <thead>
+            <th>Nombre</th>
+            <th>Estado</th>
+            <th>Origen</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pepe</td>
+                <td>Muy usado</td>
+                <td>El comic "Boy's club" de Matt Furie</td>
+            </tr>
+            <tr>
+                <td>Monsoon</td>
+                <td>Medio uso</td>
+                <td>Videojuego "Metal gear rising"</td>
+            </tr>
+            <tr>
+                <td>Bad luck brian</td>
+                <td>En desuso</td>
+                <td>Reddit</td>
+            </tr>
+        </tbody>
+    </table>
+    <style>
+        table, tr, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        </style>
+        
+    <br>
+    <h3>- ¿Sugerencias o dudas? Contactenos:</h3>
+    <form>
+        <div>
+            <label for="nombre">Nombre o alias: </label>
+            <input name="nombre" type="text">
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input name="email" type="email">
+        </div>
+        <div>
+            <label for="cont">¿Desea ser contactado?</label>
+            <input name="cont" type="checkbox">
+        </div>
+        <div>
+            <label for="razon">Razon del contacto</label>
+            <select name="razon">
+                <option value="sugerencia">Sugerencia</option>
+                <option value="Pregunta">Pregunta</option>
+            </select>
+        </div>
+        <div>
+            <textarea placeholder="Ingrese su argumento" name="text" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button type="submit">Enviar</button><button type="reset">Limpiar formulario</button>
+        </div>
+    </form>
+</body>
+</html>
